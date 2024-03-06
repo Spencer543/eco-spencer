@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer Nibarger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spencer Nibarger</h1>
+        <p>Forest Management Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my personal webpage! I'm Spencer Nibarger, and I have a passion for forest management. I believe in sustainable practices that preserve our environment while meeting human needs.</p>
+    </section>
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>My interests include:</p>
+        <ul>
+            <li>Forest ecology</li>
+            <li>Wildlife conservation</li>
+            <li>Sustainable forestry</li>
+            <li>Outdoor recreation</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach out to me via email at <a href="mailto:spencer@example.com">spencer@example.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Spencer Nibarger. All rights reserved.</p>
+    </footer>
+</body>
+</html>
